@@ -29,7 +29,7 @@ jobs:
 
       - name: Setup Deno
         # uses: denoland/setup-deno@v1
-        uses: denoland/setup-deno@ba9dcf3bc3696623d1add6a2f5181ee1b5143de5
+        uses: denoland/setup-deno@ff4860f9d7236f320afa0f82b7e6457384805d05
         with:
           deno-version: ${{ matrix.deno }} # tests across multiple Deno versions
 
